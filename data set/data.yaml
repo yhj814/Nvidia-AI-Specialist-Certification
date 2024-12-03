@@ -1,0 +1,12 @@
+train: /content/drive/MyDrive/yolov5/Train/images
+val: /content/drive/MyDrive/yolov5/Val/images
+
+nc: 1
+names: ['ball']
+
+roboflow:
+  workspace: jy-d
+  project: ball-ugsvu
+  version: 5
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/jy-d/ball-ugsvu/dataset/5
